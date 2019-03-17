@@ -1,0 +1,131 @@
+@font-face {
+	font-family : 'breeze';
+	src: url('font/breeze-webfont.woff') format('woff');
+	} 
+@font-face {
+	font-family: 'amaranth';
+	src: url(font/amaranth.woff) format('woff');
+}
+body {
+	background-color: #e5e5e5;
+	background-image: url(img/interlaced.png);
+	font-family: 'amaranth';
+}
+.container {
+	width: 1000px;
+	background-color: #a6a6a6;
+	margin: auto;
+}
+.judul {
+	font-family: 'breeze';
+	text-align: center;
+	font-size: 40px;
+	padding-top: 30px;
+	color: white;
+	text-shadow: 3px 3px 0px rgba(0,0,0,.7);
+}
+.topbar {
+	height: 30px;
+	background-color: black;
+	margin-top: 15px;
+	border-bottom: 3px solid white;
+}
+.topbar h2 {
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	text-shadow: 1px 1px 0px rgba(0,0,0,8);
+}
+.topbar a {
+	display: inline-block;
+	color: white;
+	margin-top:10px;
+	margin-left: 50px;
+	text-decoration: none;
+}
+.foto {
+	width: 1000px;
+}
+.foto img {
+	border-radius: 50%;
+	margin: 40px 0 0 40%;
+	display: block;
+	border: 2px solid white;
+
+}
+.foto p {
+	font-family: 'amaranth';
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	text-shadow: 1px 1px 0 rgba(0,0,0,8);
+	font-size: 20px;
+}
+.content {
+	margin-top: 50px;
+}
+.main {
+	width: 450px;
+	float: right;
+	margin-right: 25px;	
+	line-height: 25px;
+}
+.main .about {
+	width: 450px;
+	height: 30px;
+	background-color: black;
+	margin: auto;
+	border-bottom: 3px solid white;
+}
+h2 {
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+.main p {
+	color: white;
+	text-shadow: 1px 1px 0px rgba(0,0,0,8);
+	font-size: 20px;
+	margin-top: 15px;
+}
+.education {
+	width: 450px;
+	height: 30px;
+	background-color: black;
+	margin-top: 45px;
+	border-bottom: 3px solid white;
+}
+.sidebar {
+	width: 450px;
+	margin-left: 25px;
+	color: white;
+	text-shadow: 1px 1px 0 rgba(0,0,0,8);
+	line-height: 25px
+}
+.contact {
+	width: 450px;
+	height: 30px;
+	background-color: black;
+	margin: auto;
+	border-bottom: 3px solid white;
+}
+.konten {
+	margin-top: 15px;
+	line-height: 30px;
+}
+.konten p {
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.biodata {
+	width: 450px;
+	height: 30px;
+	background-color: black;
+	margin-top: 15px;
+	border-bottom: 3px solid white;
+}
+.bio {
+	margin-top: 15px;
+}
